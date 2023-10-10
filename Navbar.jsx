@@ -1,6 +1,7 @@
 export default function Navbar(){
     return(
-        <nav className = "nav">
+
+        <nav class = "navbar">
             <a href = "/" className = "title">
                 Kristina Isabelle M. Cortez
             </a>

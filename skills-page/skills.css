@@ -1,0 +1,33 @@
+.logo{
+    width: 4796px; 
+    height: 134px; 
+    background: url(Logo1-1.png) repeat-x; 
+    animation: logo-slide 60s linear infinite; 
+    
+}
+
+.logo{
+    width: 4800px; 
+    height: 134px; 
+    background: url(Logo2-1.png) repeat-x; 
+    animation: logo-slide 60s linear infinite; 
+    
+}
+
+.logo:hover{
+    animation-play-state: paused; 
+
+}
+
+@keyframes logo-slide{
+    0%{
+        tranfrom : translateX(0); 
+
+    }
+
+    100%{
+        transfrom: translateX(-2398px);
+        
+    }
+}
+
