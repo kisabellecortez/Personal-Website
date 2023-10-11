@@ -1,0 +1,17 @@
+.home{
+    height: 600px; 
+    justify-items: right;
+
+}
+.home_h1{
+    height: 600px; 
+    color: #bfea88;
+    justify-self: left;
+    padding-top: 100px;
+    font-family: Impact;
+    letter-spacing: .2rem;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 10px 10px 20px #000000;
+    
+}
