@@ -11,6 +11,8 @@ import GitHub from "./github.png"
 import LinkedIn from "./linkedin.png"
 import Outlook from "./microsoft.png"
 import Gmail from "./google.png"
+import Download from "./download.png"
+import Resume from "./CV.pdf"
 
 function App() {
   return(
@@ -45,7 +47,14 @@ function App() {
         
         <div className = "avatar">
           <iframe src='https://my.spline.design/untitled-21afa2f4213b9b038760bf17b407ab7f/' frameborder = '0' width='100%' height='700px'></iframe> 
+        </div>
+
+        <div className = "wrapper_btn">
+          <div className = "download_btn">
+            <div className = "btn"><img src = {Download}></img></div>
+            <a href = {Resume} download = "Kristina Isabelle M. Cortez - Resume">Download CV</a>
           </div>
+        </div>
 
       </div>
 

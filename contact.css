@@ -1,9 +1,11 @@
 .wrapper{
   display: inline-block; 
   height: 30px; 
+  padding-bottom: 50px; 
+  
 }
 
-.wrapper .button{
+.wrapper .button{ 
   display: inline-block; 
   height: 60px; 
   width: 60px; 
