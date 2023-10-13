@@ -1,6 +1,15 @@
 .projects{
     height: 600px;
-    color: #bfea88;
     padding-top: 100px;
 
+}
+
+.projects h1{
+    color: #ab5422;
+
+}
+
+.projects h2{
+    color: #ab5422;
+    
 }

@@ -1,13 +1,24 @@
 .home{
     height: 600px; 
-    justify-items: right;
+    
+}
+
+.home_background{
+    min-height: 112%; 
+    background-image: url("headshot.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    transform: translateY(-20px);
 
 }
-.home_h1{
+
+.name{
+    -webkit-text-stroke: 3px #bfea88;
     height: 600px; 
-    color: #bfea88;
+    color: rgba(0, 0, 0, 0.5);
     justify-self: left;
-    padding-top: 100px;
+    transform: translateY(250px); 
     font-family: Impact;
     letter-spacing: .2rem;
     text-align: center;

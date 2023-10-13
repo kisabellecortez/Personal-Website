@@ -1,11 +1,12 @@
 body{
     text-align: center; 
     display: flex; 
-    height: 100vh; 
+    height: 20px; 
     width: 100%; 
     padding: 0 20px; 
-    background-color: #192928; 
+    background-color: #00121e; 
     overflow-x: hidden; 
+    margin: 0;
 
 }
 
@@ -16,7 +17,7 @@ nav{
     width: 100%; 
     top: 44%; 
     left: 50%; 
-    background-color: #192928;
+    opacity: 1; 
     padding: 0 30px; 
     transform: translate(-50%, -525%);
     z-index: 1; 
