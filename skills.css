@@ -1,6 +1,44 @@
 .skills{
-    height: 600px;
+    height: 10000px;
     color: #82d0de;
     padding-top: 100px;
 
 }
+
+.skills-title{
+    color: #82d0de; 
+}
+
+.skills-card{
+    display: inline-block; 
+    padding-top: 50px; 
+    height: 150px; 
+    width: 300px; 
+    border-color: white;
+    transition: 0.3s; 
+    border-radius: 5px; 
+
+}
+
+.skills-card img{
+    height: 150px; 
+
+}
+
+.card-container{
+    padding: 2px 16px;
+    
+}
+
+.card-container h4{
+    color: #82d0de; 
+
+}
+
+.card-container p{
+    color: #82d0de; 
+
+}
+
+
+

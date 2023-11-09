@@ -4,12 +4,16 @@
 }
 
 .home_background{
-    min-height: 112%; 
+    position: absolute;
+    min-height: 100%; 
+    min-width: 120%; 
     background-image: url("headshot.jpg"); 
+    background-attachment: fixed; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
-    transform: translateY(-20px);
+    transform: translate(-20px, -20px);
+    overflow: hidden; 
 
 }
 
@@ -17,7 +21,6 @@
     -webkit-text-stroke: 3px #bfea88;
     height: 600px; 
     color: rgba(0, 0, 0, 0.5);
-    justify-self: left;
     transform: translateY(250px); 
     font-family: Impact;
     letter-spacing: .2rem;

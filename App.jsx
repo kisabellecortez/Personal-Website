@@ -56,7 +56,7 @@ function App() {
           <a href = {Resume} download = "Kristina Isabelle M. Cortez - Resume.pdf">
             <div className = "download_btn">
               <div className = "btn"><img src = {Download}></img></div>
-              <a>Download CV PDF</a>
+              <a>Download CV</a>
             </div>
           </a>
         </div>
@@ -65,8 +65,168 @@ function App() {
 
       {/*skills section*/}
       <div id = "skills">
-      
-        <h1 className = "skills">Skills</h1>
+
+        <h2 className = "skills-title">Languages</h2>
+
+        <div className = "skills-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+          <div className = "card-container">
+            <h4><b>C++</b></h4>
+            <p>Took ECE 150 in my first year at the University of Waterloo. </p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
+          <div className = "card-container">
+            <h4><b>C#</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+          <div className = "card-container">
+            <h4><b>CSS</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+          <div className = "card-container">
+            <h4><b>HTML</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+          <div className = "card-container">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+            <h4><b>Java</b></h4>
+            <p>Took a grade 11 and 12 computer science course where I learned the fundamentals, and have been practicing for 3+ years now.</p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+          <div className = "card-container">
+            <h4><b>JavaScript</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+          <div className = "card-container">
+            <h4><b>Python</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+          <div className = "card-container">
+            <h4><b>VHDL</b></h4>
+            <p>Took ECE 124 in my first year at the University of Waterloo, where we created projects i.e. traffic light system with crossing.</p>
+          </div>
+        </div>
+
+        <h2 className = "skills-title">Frameworks</h2>
+
+        <div className = "skills-card">
+          <div className = "card-container">
+            <h4><b>PyGame</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+          <div className = "card-container">
+            <h4><b>React</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+          <div className = "card-container">
+            <h4><b>Spring</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" />
+          <div className = "card-container">
+            <h4><b>Unity</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" />
+          <div className = "card-container">
+            <h4><b>Unreal Engine</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+          <div className = "card-container">
+            <h4><b>Vaadin</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <h2 className = "skills-title">Tools</h2>
+
+        <div className = "skills-card">
+          <div className = "card-container">
+            <h4><b>AutoCAD</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+          <div className = "card-container">
+            <h4><b>COMSOL</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+          <div className = "card-container">
+            <h4><b>Git</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/labview/labview-original.svg" />
+          <div className = "card-container">
+            <h4><b>Intel Quartus Prime</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+          <div className = "card-container">
+            <h4><b>Linux</b></h4>
+            <p></p>
+          </div>
+        </div>
+
+        <div className = "skills-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" />
+          <div className = "card-container">
+            <h4><b>OpenCV</b></h4>
+            <p></p>
+          </div>
+        </div>
+
       </div>
 
       {/*projects section*/}
