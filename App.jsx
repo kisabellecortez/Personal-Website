@@ -11,8 +11,17 @@ import GitHub from "./github.png"
 import LinkedIn from "./linkedin.png"
 import Outlook from "./microsoft.png"
 import Gmail from "./google.png"
+
+{/*import logo and resume for CV download*/}
 import Download from "./download.png"
 import Resume from "./CV.pdf"
+
+{/*imports brand logos for skills card*/}
+import Vaadin from "./vaadin-logo.png"
+import PyGame from "./pygame-logo.png"
+import AutoCAD from "./autocad-logo.png/"
+import COMSOL from "./comsol-logo.png"
+import Quartus from "./intelquartusprime-logo.png"
 
 function App() {
   return(
@@ -66,8 +75,10 @@ function App() {
       {/*skills section*/}
       <div id = "skills">
 
+        {/*title for language section*/}
         <h2 className = "skills-title">Languages</h2>
 
+        {/*logo cards*/}
         <div className = "skills-card">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
           <div className = "card-container">
@@ -79,7 +90,7 @@ function App() {
         <div className = "skills-card">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
           <div className = "card-container">
-            <h4><b>C#</b></h4>
+            <h4><b>Began my self learning journey on September 2022.</b></h4>
             <p></p>
           </div>
         </div>
@@ -88,14 +99,14 @@ function App() {
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
           <div className = "card-container">
             <h4><b>CSS</b></h4>
-            <p></p>
+            <p>Began my self learning journey on September 2022, creating web projects like this.</p>
           </div>
         </div>
 
         <div className = "skills-card">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
           <div className = "card-container">
-            <h4><b>HTML</b></h4>
+            <h4><b>Began my self learning journey on September 2022, creating web projects like this.</b></h4>
             <p></p>
           </div>
         </div>
@@ -111,7 +122,7 @@ function App() {
         <div className = "skills-card">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
           <div className = "card-container">
-            <h4><b>JavaScript</b></h4>
+            <h4><b>Began my self learning journey on September 2022, creating web projects like this.</b></h4>
             <p></p>
           </div>
         </div>
@@ -120,23 +131,27 @@ function App() {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
           <div className = "card-container">
             <h4><b>Python</b></h4>
-            <p></p>
+            <p>Began my self learning journey on September 2022.</p>
           </div>
         </div>
 
         <div className = "skills-card">
+        <img src="https://devicon-website.vercel.app/api/embeddedc/original.svg"></img>
           <div className = "card-container">
             <h4><b>VHDL</b></h4>
             <p>Took ECE 124 in my first year at the University of Waterloo, where we created projects i.e. traffic light system with crossing.</p>
           </div>
         </div>
 
+        {/*title for frameworks section*/}
         <h2 className = "skills-title">Frameworks</h2>
 
+        {/*logo cards*/}
         <div className = "skills-card">
+          <img src = {PyGame}></img>
           <div className = "card-container">
             <h4><b>PyGame</b></h4>
-            <p></p>
+            <p>Began my self learning journey on September 2022.</p>
           </div>
         </div>
 
@@ -144,7 +159,7 @@ function App() {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
           <div className = "card-container">
             <h4><b>React</b></h4>
-            <p></p>
+            <p>Began my self learning journey on September 2022, creating web projects like this.</p>
           </div>
         </div>
 
@@ -152,7 +167,7 @@ function App() {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
           <div className = "card-container">
             <h4><b>Spring</b></h4>
-            <p></p>
+            <p>Began my self learning journey on September 2022, creating web projects like this.</p>
           </div>
         </div>
 
@@ -160,7 +175,7 @@ function App() {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" />
           <div className = "card-container">
             <h4><b>Unity</b></h4>
-            <p></p>
+            <p>Began my self learning journey on September 2022, creating web projects like this.</p>
           </div>
         </div>
 
@@ -168,30 +183,35 @@ function App() {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" />
           <div className = "card-container">
             <h4><b>Unreal Engine</b></h4>
-            <p></p>
+            <p>Began my self learning journey on September 2022, creating web projects like this.</p>
           </div>
         </div>
 
         <div className = "skills-card">
+          <img src = {Vaadin}></img>
           <div className = "card-container">
             <h4><b>Vaadin</b></h4>
-            <p></p>
+            <p>Began my self learning journey on September 2022, creating web projects like this.</p>
           </div>
         </div>
 
+        {/*title for tools section*/}
         <h2 className = "skills-title">Tools</h2>
 
+        {/*logo cards*/}
         <div className = "skills-card">
+          <img src = {AutoCAD}></img>
           <div className = "card-container">
             <h4><b>AutoCAD</b></h4>
-            <p></p>
+            <p>Took ECE 192 in my first year at the University of Waterloo, and designed a waterproof container for a water contamination detector. </p>
           </div>
         </div>
 
         <div className = "skills-card">
+         <img src = {COMSOL}></img>
           <div className = "card-container">
             <h4><b>COMSOL</b></h4>
-            <p></p>
+            <p>Took ECE in my first year at the University of Waterloo, conducting experiments of electrical fields.</p>
           </div>
         </div>
 
@@ -199,15 +219,15 @@ function App() {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
           <div className = "card-container">
             <h4><b>Git</b></h4>
-            <p></p>
+            <p>Began using on September 2022 to manage group projects in ECE 124 and ECE 192.</p>
           </div>
         </div>
 
         <div className = "skills-card">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/labview/labview-original.svg" />
+          <img src = {Quartus}></img>
           <div className = "card-container">
             <h4><b>Intel Quartus Prime</b></h4>
-            <p></p>
+            <p>Took ECE 124 in my first year at the University of Waterloo, creating programs using embedded systems.</p>
           </div>
         </div>
 
@@ -215,7 +235,7 @@ function App() {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
           <div className = "card-container">
             <h4><b>Linux</b></h4>
-            <p></p>
+            <p>Began using this system during my first co-op term at NRT Technologies, using it to naviagte throught their financial systems. </p>
           </div>
         </div>
 
@@ -223,7 +243,7 @@ function App() {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" />
           <div className = "card-container">
             <h4><b>OpenCV</b></h4>
-            <p></p>
+            <p>In the 2023 Toyota Innovation Challenge, I used OpenCV to program a webcam into detecting proper sticker placement on 3D objects.</p>
           </div>
         </div>
 
