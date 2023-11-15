@@ -15,6 +15,7 @@ import Gmail from "./google.png"
 {/*import logo and resume for CV download*/}
 import Download from "./download.png"
 import Resume from "./CV.pdf"
+import Link from "./project-link.png"
 
 {/*imports brand logos for skills card*/}
 import Vaadin from "./vaadin-logo.png"
@@ -253,6 +254,20 @@ function App() {
       <div className = "projects" id = "projects">
         <h2>some of my recent</h2>
         <h1>PROJECTS</h1>
+
+        <div className = "project-card">
+          <a href = ""><img src = {Link}></img></a>
+          <a href = ""><img src = {GitHub}></img></a>
+          <h1>Personal Website</h1>
+        </div>
+
+        <div className = "project-card">
+        <img src = {Link}></img>
+            <img src = {GitHub}></img>
+          <h1>Ecommerce Website: Nirvana Collections</h1>
+        </div>
+
+
       </div>
       
 
