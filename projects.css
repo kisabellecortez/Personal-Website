@@ -14,31 +14,89 @@
     
 }
 
-.project-card{
-    overflow: hidden; 
+.project-container{
     display: inline-block; 
-    align-items: center;
     width: 350px; 
-    height: 200px;
-    border-radius: 10px; 
-    background-color: #ab5422; 
-    margin: 10px; 
+    height: 200px; 
+    margin: 25px; 
+    perspective: 800px; 
 
 }
 
-.project-card img{
+.project-container:hover > .project-card{
+    cursor: pointer; 
+    transform: rotateY(180deg);
+}
+
+.project-card{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    transition: transform 1500ms; 
+    transform-style: preserve-3d; 
+
+}
+
+.front{
+    backface-visibility: hidden;
+    width: 100%; 
+    height: 100%;
+    border-radius: 10px; 
+    background-color: #ab5422; 
+    margin: 10px; 
+    position: absolute; 
+
+}
+
+.front h2{
+    color: black; 
+
+}
+
+.front h1{
+    color: black;  
+
+}
+
+.front img{
+    display: inline-block; 
+    width: 40px; 
+    height: 40px; 
+    padding-left: 10px; 
+
+}
+
+.back{
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    width: 100%; 
+    height: 100%; 
+    border-radius: 10px;
+    background-color: black; 
+    margin: 10px; 
+    position: absolute;  
+
+}
+
+.back h2{
+    padding-top: 20px; 
+    color: white; 
+
+}
+
+.back p{
+    padding-left: 30px; 
+    padding-right: 30PX;
+    color: white;
+}
+
+.back img{
+    filter: invert(100%);
     float: right;
     width: 22px; 
     height: 22px;
     padding-left: 10px;
     padding-right: 10px; 
     padding-top: 10px;
-
-
-}
-
-.project-card h1{
-    color: black;   
-    padding-top: 40px;
 
 }
