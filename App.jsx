@@ -255,6 +255,7 @@ function App() {
         <h2>some of my recent</h2>
         <h1>PROJECTS</h1>
 
+        {/*projects card*/}
         <div className = "project-card">
           <a href = ""><img src = {Link}></img></a>
           <a href = ""><img src = {GitHub}></img></a>
@@ -267,6 +268,29 @@ function App() {
           <h1>Ecommerce Website: Nirvana Collections</h1>
         </div>
 
+        <div className = "project-card">
+        <img src = {Link}></img>
+            <img src = {GitHub}></img>
+          <h1></h1>
+        </div>
+
+        <div className = "project-card">
+        <img src = {Link}></img>
+            <img src = {GitHub}></img>
+          <h1>Productivity App</h1>
+        </div>
+
+        <div className = "project-card">
+        <img src = {Link}></img>
+            <img src = {GitHub}></img>
+          <h1>Finance Tracker</h1>
+        </div>
+
+        <div className = "project-card">
+        <img src = {Link}></img>
+            <img src = {GitHub}></img>
+          <h1>Asset Tracker</h1>
+        </div>
 
       </div>
       
