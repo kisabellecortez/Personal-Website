@@ -7,22 +7,22 @@ import './projects.css';
 import './contact.css';
 
 {/*importing brand logos for contact card*/}
-import GitHub from "./github.png"
-import LinkedIn from "./linkedin.png"
-import Outlook from "./microsoft.png"
-import Gmail from "./google.png"
+import GitHub from "./assets/logos/github.png"
+import LinkedIn from "./assets/logos/linkedin.png"
+import Outlook from "./assets/logos/microsoft.png"
+import Gmail from "./assets/logos/google.png"
 
 {/*import logo and resume for CV download*/}
-import Download from "./download.png"
-import Resume from "./CV.pdf"
-import Link from "./project-link.png"
+import Resume from "./assets/CV.pdf"
+import Download from "./assets/icons/download.png"
+import Link from "./assets/icons/project-link.png"
 
 {/*imports brand logos for skills card*/}
-import Vaadin from "./vaadin-logo.png"
-import PyGame from "./pygame-logo.png"
-import AutoCAD from "./autocad-logo.png/"
-import COMSOL from "./comsol-logo.png"
-import Quartus from "./intelquartusprime-logo.png"
+import Vaadin from "./assets/logos/vaadin-logo.png"
+import PyGame from "./assets/logos/pygame-logo.png"
+import AutoCAD from "./assets/logos/autocad-logo.png/"
+import COMSOL from "./assets/logos/comsol-logo.png"
+import Quartus from "./assets/logos/intelquartusprime-logo.png"
 
 function App() {
   return(
@@ -267,8 +267,8 @@ function App() {
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
             </div>
             <div className = "back">
-              <a href = ""><img src = {Link}></img></a>
-              <a href = ""><img src = {GitHub}></img></a>
+              <a href = "/"><img src = {Link}></img></a>
+              <a href = "https://github.com/kisabellecortez/Personal-Website"><img src = {GitHub}></img></a>
               <h2>2023</h2>
               <p>A website portfolio to showcase my skills and experience. Made with JavaScript, HTML, CSS, and React.</p>
             </div>
@@ -286,7 +286,7 @@ function App() {
             </div>
             <div className = "back">
               <a href = ""><img src = {Link}></img></a>
-              <a href = ""><img src = {GitHub}></img></a>
+              <a href = "https://github.com/kisabellecortez/Nirvana-Collections"><img src = {GitHub}></img></a>
               <h2>2023</h2>
               <p>An ecommerce website for a jewelry business, Nirvana Collections, with customer accounts. Created with JavaScript, HTML, CSS, and React</p>
             </div>
