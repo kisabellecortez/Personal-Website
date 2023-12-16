@@ -1,20 +1,28 @@
 .home{
-    height: 600px; 
-    
+    height: 100vh; 
+    width: 100%; 
+    display: grid; 
+    align-items: center;  
+    grid-template-columns: 2fr 2fr 2fr;
+    column-gap: 50px; 
 }
 
-.home_background{
-    position: absolute;
-    min-height: 100%; 
-    min-width: 120%; 
-    background-image: url("headshot.jpg"); 
-    background-attachment: fixed; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    transform: translate(-20px, -20px);
-    overflow: hidden; 
+.home img{
+    float: left; 
+    margin-top: 8%;
+    margin-left: 5%;  
+    width: 375px; 
+    height: 500px; 
+    border-radius: 10%; 
+}
 
+.home .header{
+    color: #c17eb0; 
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px; 
+    height: 50%; 
+    float: right; 
+    font-size: 30px; 
 }
 
 .name{

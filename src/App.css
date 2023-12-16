@@ -1,7 +1,7 @@
 body{
     text-align: center; 
     display: flex; 
-    height: 20px; 
+    height: auto; 
     width: 100%; 
     padding: 0 20px; 
     background-color: #00121e; 
@@ -15,9 +15,9 @@ nav{
     display: inline-flex; 
     position: fixed; 
     width: 100%; 
-    top: 44%; 
+    top: 45%; 
     left: 50%; 
-    opacity: 1; 
+     background-color: #00121e; 
     padding: 0 30px; 
     transform: translate(-50%, -525%);
     z-index: 1; 
@@ -59,6 +59,8 @@ nav{
     width: 100%; 
 
 }
+
+
 
 
 

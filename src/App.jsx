@@ -13,6 +13,7 @@ import Outlook from "./assets/logos/microsoft.png"
 import Gmail from "./assets/logos/google.png"
 
 {/*import logo and resume for CV download*/}
+import Headshot from './assets/headshot.jpg'
 import Resume from "./assets/CV.pdf"
 import Download from "./assets/icons/download.png"
 import Link from "./assets/icons/project-link.png"
@@ -43,9 +44,12 @@ function App() {
       </body> 
 
       {/*home section*/}
-      <div className = "home" id = "home">
-        <div className = "home_background">
-        <div className = "name">Kristina Isbabelle M. Cortez</div>
+      <div className = "home">
+        <img src={Headshot} alt="headshot"></img>
+
+        <div className="header">
+          <h1>Kristina Isbabelle M. Cortez</h1>  
+          <p>Toronto-based, full-stack web developer.</p>
         </div>
       </div> 
 

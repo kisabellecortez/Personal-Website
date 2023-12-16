@@ -1,9 +1,7 @@
 {/*
-
 Kristina Isabelle M. Cortez
 Personal Website
-Last Updated: Oct. 13, 2023
-
+Last Updated: Dec. 15, 2023
 */}
 
 import React from 'react'
