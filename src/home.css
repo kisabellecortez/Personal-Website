@@ -11,9 +11,8 @@
     float: left; 
     margin-top: 8%;
     margin-left: 5%;  
-    width: 375px; 
-    height: 500px; 
-    border-radius: 10%; 
+
+    border-radius: 50%; 
 }
 
 .home .header{

@@ -13,7 +13,7 @@ import Outlook from "./assets/logos/microsoft.png"
 import Gmail from "./assets/logos/google.png"
 
 {/*import logo and resume for CV download*/}
-import Headshot from './assets/headshot.jpg'
+import Headshot from './assets/headshot.png'
 import Resume from "./assets/CV.pdf"
 import Download from "./assets/icons/download.png"
 import Link from "./assets/icons/project-link.png"
