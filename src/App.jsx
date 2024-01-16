@@ -14,7 +14,7 @@ import Gmail from "./assets/logos/google.png"
 
 {/*import logo and resume for CV download*/}
 import Headshot from './assets/headshot.png'
-import Resume from "./assets/CV.pdf"
+import Resume from "./assets/Resume.pdf"
 import Download from "./assets/icons/download.png"
 import Link from "./assets/icons/project-link.png"
 
@@ -70,7 +70,7 @@ function App() {
           <a href = {Resume} download = "Kristina Isabelle M. Cortez - Resume.pdf">
             <div className = "download_btn">
               <div className = "btn"><img src = {Download}></img></div>
-              <a>Download CV</a>
+              <a>Resume</a>
             </div>
           </a>
         </div>
@@ -92,13 +92,13 @@ function App() {
           </div>
         </div>
 
-        <div className = "skills-card">
+        {/* <div className = "skills-card">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
           <div className = "card-container">
             <h4><b>C#</b></h4>
             <p>Began my self learning journey on September 2022.</p>
           </div>
-        </div>
+  </div> */}
 
         <div className = "skills-card">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
@@ -176,7 +176,7 @@ function App() {
           </div>
         </div>
 
-        <div className = "skills-card">
+        {/* <div className = "skills-card">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" />
           <div className = "card-container">
             <h4><b>Unity</b></h4>
@@ -190,7 +190,7 @@ function App() {
             <h4><b>Unreal Engine</b></h4>
             <p>Began my self learning journey on September 2022, creating web projects like this.</p>
           </div>
-        </div>
+        </div> */}
 
         <div className = "skills-card">
           <img src = {Vaadin}></img>
@@ -264,17 +264,12 @@ function App() {
         <div className = "project-container">
           <div className = "project-card">
             <div className = "front">
-              <h1>Personal Website</h1>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+              <h1>Financial Statement Merger</h1>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
             </div>
             <div className = "back">
-              <a href = "/"><img src = {Link}></img></a>
-              <a href = "https://github.com/kisabellecortez/Personal-Website"><img src = {GitHub}></img></a>
               <h2>2023</h2>
-              <p>A website portfolio to showcase my skills and experience. Made with JavaScript, HTML, CSS, and React.</p>
+              <p>A Python application accessed through the computers terminals which updates debits and credits with their bank customers. This was done as a project during my co-op at NRT Technologies and is now implemented in their software.</p>
             </div>
           </div>
         </div>
@@ -282,17 +277,17 @@ function App() {
         <div className = "project-container">
           <div className = "project-card">
             <div className = "front">
-              <h1>Nirvana Collections Website</h1>
+              <h1>Sky Diary </h1>
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
             </div>
             <div className = "back">
-              <a href = ""><img src = {Link}></img></a>
+              <a href = "https://sky-diary.netlify.app/"><img src = {Link}></img></a>
               <a href = "https://github.com/kisabellecortez/Nirvana-Collections"><img src = {GitHub}></img></a>
               <h2>2023</h2>
-              <p>An ecommerce website for a jewelry business, Nirvana Collections, with customer accounts. Created with JavaScript, HTML, CSS, and React</p>
+              <p>An online diary application that uses CRUD methods to store entries, and post/edit daily entries. Users are able to store and create entries using Firebase.</p>
             </div>
           </div>
         </div>
@@ -300,55 +295,13 @@ function App() {
         <div className = "project-container">
           <div className = "project-card">
             <div className = "front">
-              <h1>PetCurex</h1>
+              <h1>Snake</h1>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
             </div>
             <div className = "back">
-              <a href = ""><img src = {Link}></img></a>
-              <a href = ""><img src = {GitHub}></img></a>
+              <a href = "https://github.com/kisabellecortez/snake"><img src = {GitHub}></img></a>
               <h2>2023</h2>
-              <p>A website with personalized customer accounts that recommends treatments for specific animal concerns.</p>
-            </div>
-          </div>
-        </div>
-
-        <div className = "project-container">
-          <div className = "project-card">
-            <div className = "front">
-              <h1>Expense Tracker</h1>
-            </div>
-            <div className = "back">
-              <a href = ""><img src = {Link}></img></a>
-              <a href = ""><img src = {GitHub}></img></a>
-              <h2>2023</h2>
-              <p>An IOS and Andriod app that track your monthly expenses with a personal budgeting recommendation. Includes expense splitting between users and budgeting for future plans.</p>
-            </div>
-          </div>
-        </div>
-
-        <div className = "project-container">
-          <div className = "project-card">
-            <div className = "front">
-              <h1>Productivity Tracker</h1>
-            </div>
-            <div className = "back">
-              <a href = ""><img src = {Link}></img></a>
-              <a href = ""><img src = {GitHub}></img></a>
-              <h2>2023</h2>
-              <p></p>
-            </div>
-          </div>
-        </div>
-
-        <div className = "project-container">
-          <div className = "project-card">
-            <div className = "front">
-              <h1>Asset Tracker</h1>
-            </div>
-            <div className = "back">
-              <a href = ""><img src = {Link}></img></a>
-              <a href = ""><img src = {GitHub}></img></a>
-              <h2>2023</h2>
-              <p></p>
+              <p>A recreation of the classic game 'Snake' using Java.</p>
             </div>
           </div>
         </div>
